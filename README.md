@@ -21,6 +21,7 @@ To interface a digital sensor with an STM32 microcontroller and automatically co
 The sensor continuously detects the required environmental condition. The sensor output is given to an STM32 GPIO input pin. The STM32 processes the sensor signal. If the programmed condition is satisfied, STM32 sets the LED GPIO HIGH. Otherwise, it sets the LED GPIO LOW. Thus, the LED operates automatically without manual switching.
 
 ## Program
+
 /* USER CODE BEGIN Header / /*
 
 @file : main.c
